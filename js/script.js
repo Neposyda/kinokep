@@ -1,3 +1,3 @@
-$(document).ready(function(){
-  $("a.new_window").attr("target", "_blank");
- });
+function clickButton (textHref) {
+	document.querySelector("#videoframe iframe").setAttribute("src",textHref);
+}

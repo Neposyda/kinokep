@@ -69,7 +69,7 @@ h3 {font-size:30px;line-height:1.2em;color:#bfbfbf;margin-bottom:20px}
 h3 b {color:#e1e1e1;font-weight:normal}
 h3 span {color:#d72a18}
 h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bottom:18px}
-.link1 {display:block;float:left;background:url(images/link1-right.png) no-repeat right top;color:#fff;text-decoration:none;line-height:1em;cursor:pointer}
+.link1 {display:block;float:left;background:url(images/link1-right.png) no-repeat right top;color:#fff;text-decoration:none;line-height:1em;cursor:pointer;}
 .link1:hover span {text-decoration:underline}
 .link1 span {display:block;float:left;padding:0 5px;background:url(images/link1-left.png) no-repeat left top}
 .link1 span span {display:block;background:url(images/link1-tail.gif) repeat-x left top;padding:8px 15px}
@@ -85,8 +85,9 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 .box .inner {padding:28px 50px 25px 50px}
 /* HEADER */
 #header .row-1 {height:112px;width:100%;overflow:hidden}
-#header .row-1 .fleft {font-size:40px;line-height:1.2em;padding:26px 0 0 47px}
-#header .row-1 .fleft a {text-decoration:none}
+#header .row-1 .fleft {font-size:40px;line-height:1.2em;padding:26px 0 0 47px;}
+#header .row-1 .fleft a {text-decoration:none; color: #bfbfbf}
+#header .row-1 .fleft a span {color: #d72a18}
 #header .row-1 ul {padding:49px 60px 0 0;float:right}
 #header .row-1 ul li {float:left;padding-left:54px}
 #header .row-2 {height:51px}
@@ -98,6 +99,7 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 /* CONTENT */
 #content .content {padding:30px 0 39px 50px}
 .ic, .ic a {border:0;float:right;background:#f00;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-50% 0 0 0;overflow:hidden;padding:0}
+#videoframe {padding:30px 0} /*visibility:hidden;  display: none;*/
 /* FOOTER */
 #footer .left {background:url(images/footer-left.gif) no-repeat left top}
 #footer .right {min-height:89px;height:auto !important;height:89px;background:url(images/footer-right.gif) no-repeat right top;text-align:center}
