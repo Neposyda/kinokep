@@ -41,6 +41,7 @@ ul, ol {list-style:none}
 .movies li img {margin-left:-30px;position:relative}
 .movies li p {margin:5px 0 15px 0;padding-right:40px}
 .movies li p span {color:#fff}
+.movies li .wrapper 
 .list {margin-top:-30px}
 .list li {width:100%;overflow:hidden;vertical-align:top;line-height:1.714em;padding-top:40px}
 .list li img {float:left;margin:-10px 20px 0 0}
@@ -112,3 +113,9 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 #page1 #content .box {margin:0}
 #page1 #header .row-2 ul li a {height:59px}
 #page1 #header .row-2 ul li.last a:hover {position:relative;z-index:2}
+/*SEATS IN THE CINEMA*/
+/*#seatscinema {width: 840px; height: 640px; background-color: white; margin: 10px 0; padding: 20px;}*/
+table {width: 840px; height: 540px; margin: 10px 0; background-color: white;}
+table, th, td {
+  border: 1px solid black;
+}
