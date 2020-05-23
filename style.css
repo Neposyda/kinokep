@@ -118,6 +118,8 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 table {width: 840px; height: 540px; margin: 10px 0}
 table, th, td {
   border: 1px solid black;
+  border-radius: 10px;
+  color: white;
 }
 .yellow { background-color: yellow}
 .red { background-color: red}
