@@ -100,8 +100,7 @@ h4 {font-size:20px;line-height:1.2em;letter-spacing:-1px;color:#2c6d9a;margin-bo
 /* CONTENT */
 #content .content {padding:30px 0 39px 50px}
 .ic, .ic a {border:0;float:right;background:#f00;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-50% 0 0 0;overflow:hidden;padding:0}
-#videoframe {padding:30px 0} /*visibility:hidden;  display: none;*/
-/*.boxseats {display: none;}*/
+#videoframe {padding:30px 0} 
 /* FOOTER */
 #footer .left {background:url(images/footer-left.gif) no-repeat left top}
 #footer .right {min-height:89px;height:auto !important;height:89px;background:url(images/footer-right.gif) no-repeat right top;text-align:center}
@@ -121,6 +120,7 @@ table, th, td {
   border-radius: 10px;
   color: white;
 }
-.yellow { background-color: yellow}
-.red { background-color: red}
-.green {  background-color: green }
+.yellow { background-color: yellow; color: black}
+.red { background-color: red; color: white} 
+.green {  background-color: green; color: white}
+.new_window{target:"_blank"}
